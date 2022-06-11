@@ -57,7 +57,7 @@
   }
 
   .back-button {
-    padding: 24px;
+    padding: 2.4rem;
     font-family: "Space Mono";
     font-weight: 700;
     font-size: 14px;
@@ -66,10 +66,12 @@
     height: 68px;
     color: #ffffff;
     cursor: pointer;
+    margin-bottom: 25px;
   }
 
   footer {
     margin-top: auto;
+    padding: 3em;
   }
 
   .footer-text {
@@ -83,6 +85,11 @@
   @media only screen and (max-width: 768px) {
     .grid {
       grid-template-columns: 1fr;
+    }
+
+    .back-button {
+      width: revert;
+      height: revert;
     }
   }
 </style>
