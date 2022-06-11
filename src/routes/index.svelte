@@ -22,6 +22,9 @@
 <style>
   main {
     padding: 24px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .header-text {
@@ -65,12 +68,13 @@
     cursor: pointer;
   }
 
+  footer {
+    margin-top: auto;
+  }
+
   .footer-text {
     font-family: "Montserrat";
-    position: fixed;
-    transform: translateX(-50%);
-    bottom: 24px;
-    left: 50%;
+    text-align: center;
     font-weight: 500;
     font-size: 1.6rem;
     color: #bdbdbd;
